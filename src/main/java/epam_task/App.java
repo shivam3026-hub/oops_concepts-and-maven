@@ -109,8 +109,8 @@ DairyMilk dairy=new DairyMilk(8);
         System.out.println("total weight of dairymilk chocolates is :"+ dairy.getNumber_of_sweets()*dairy.getWeight());
 
         Candies candies=new Candies(4,"lollipop");
-
+int d=c.getNumber_of_sweets() + candies.getNumber_of_sweets();
         System.out.println("total weight of candies is :"+ candies.getNumber_of_sweets()*candies.getWeight());
-        System.out.println("total number of sweets  are :"+ c.getNumber_of_sweets()+candies.getNumber_of_sweets() );
+        System.out.println("total number of sweets  are :"+ d );
     }
 }
